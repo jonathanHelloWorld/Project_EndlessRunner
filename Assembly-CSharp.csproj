@@ -59,12 +59,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\CanvasControl.cs" />
+    <Compile Include="Assets\Scripts\ChangeScene.cs" />
+    <Compile Include="Assets\Scripts\GetText.cs" />
     <Compile Include="Assets\Scripts\Move.cs" />
     <Compile Include="Assets\Scripts\ObjInteraction.cs" />
+    <Compile Include="Assets\Scripts\PlayerDead.cs" />
     <Compile Include="Assets\Scripts\Pooling.cs" />
     <Compile Include="Assets\Scripts\SegueCam.cs" />
     <Compile Include="Assets\Scripts\Singleton.cs" />
-    <Compile Include="Assets\Scripts\TriggerController.cs" />
+    <Compile Include="Assets\Scripts\TimeAndSpeedControl.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Users/Eventos.Desktop-09/Project_R/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>

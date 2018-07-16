@@ -15,4 +15,5 @@ public class ObjInteraction : MonoBehaviour {
 	private void OnCollisionEnter(Collision collision) {
 		Debug.Log("eaee");
 	}
+	
 }
