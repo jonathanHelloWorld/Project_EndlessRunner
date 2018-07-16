@@ -10,7 +10,7 @@ public class GetText : MonoBehaviour {
 	void Start () {
 
 		_text = GetComponent<Text>();
-		_text.text += TimeAndSpeedControl.instance.result.ToString("00");
+		_text.text += TimeAndSpeedControl.instance.result.ToString("00") + "m";
 
 	}
 	

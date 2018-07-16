@@ -16,7 +16,7 @@ public class CanvasControl : MonoBehaviour {
 	
 	void Update () {
 
-		text.text = TimeAndSpeedControl.instance.distance.ToString("00");
+		text.text = TimeAndSpeedControl.instance.distance.ToString("00") + "m";
 
 	}
 }

@@ -603,10 +603,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 4
-  speedLado: 4
+  speedLado: 6
   speedCam: 1
   contadorSegundos: 0
   timeTravel: 0
+  result: 0
   CdTime: 0
   timeControl: 0
   distance: 0

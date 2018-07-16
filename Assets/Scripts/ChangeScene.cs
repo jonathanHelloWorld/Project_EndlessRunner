@@ -19,18 +19,14 @@ public class ChangeScene : MonoBehaviour {
 
 	}
 
-	void Update () {
-		
-	}
-
 	void offsetScene() {
 		TimeAndSpeedControl.instance.distance = 0.0f;
 		TimeAndSpeedControl.instance.timeControl = 0.0f;
 		TimeAndSpeedControl.instance.speed = 4.0f;
-		TimeAndSpeedControl.instance.speedLado = 4.0f;
+		TimeAndSpeedControl.instance.speedLado = 6.0f;
 		TimeAndSpeedControl.instance.speedCam = 1.0f;
 		TimeAndSpeedControl.instance.contadorSegundos = 0.5f;
-		TimeAndSpeedControl.instance.timeTravel = 0.5f;
+		TimeAndSpeedControl.instance.timeTravel = 0.33f;
 		TimeAndSpeedControl.instance.CdTime = 10.0f;
 	}
 }
